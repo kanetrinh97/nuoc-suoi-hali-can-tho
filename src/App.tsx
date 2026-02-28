@@ -62,7 +62,7 @@ const Navbar = () => {
                 className="w-full h-full object-contain"
                 onError={(e) => {
                   // Fallback if image not found at specific path
-                  (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/water/100/100';
+                  (e.target as HTMLImageElement).src = 'https://drive.google.com/drive/u/1/my-drive';
                 }}
               />
             </div>
@@ -470,7 +470,7 @@ const Footer = () => {
                 alt="Logo" 
                 className="w-full h-full object-contain"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/water/50/50';
+                  (e.target as HTMLImageElement).src = 'https://drive.google.com/drive/u/1/my-drive';
                 }}
               />
             </div>
