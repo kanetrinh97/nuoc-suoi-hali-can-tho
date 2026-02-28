@@ -57,13 +57,9 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center overflow-hidden rounded-lg bg-white p-1 shadow-sm">
               <img 
-                src="https://ais-pre-27dhsw6zqckdsa4bpihwcv-392066925023.asia-southeast1.run.app/logo.png" 
-                alt="Nước suối HALI Cần Thơ Logo" 
-                className="w-full h-full object-contain"
-                onError={(e) => {
-                  // Fallback if image not found at specific path
-                  (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/water/100/100';
-                }}
+                src="./logo.png"
+  alt="Logo HALI"
+  className="w-full h-full object-contain"
               />
             </div>
             <span className={`font-bold text-lg md:text-xl tracking-tight leading-tight ${isScrolled ? 'text-blue-900' : 'text-white'}`}>
