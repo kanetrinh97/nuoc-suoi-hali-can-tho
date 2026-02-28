@@ -57,7 +57,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center overflow-hidden rounded-lg bg-white p-1 shadow-sm">
               <img 
-                src="./logo.png" 
+                src="./src/logo.png" 
                 alt="Nước suối HALI Cần Thơ Logo" 
                 className="w-full h-full object-contain"
                 onError={(e) => {
