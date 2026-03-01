@@ -158,10 +158,6 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="max-w-2xl"
         >
-          <div className="inline-flex items-center gap-2 bg-blue-500/20 backdrop-blur-md border border-white/20 px-4 py-2 rounded-full text-blue-100 text-sm font-medium mb-6">
-            <CheckCircle2 size={16} className="text-blue-400" />
-            Nước uống đóng chai chuẩn chất lượng
-          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             Nước suối <br />
             <span className="text-blue-400">HALI Cần Thơ</span>
