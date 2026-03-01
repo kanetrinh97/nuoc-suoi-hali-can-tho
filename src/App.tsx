@@ -409,49 +409,6 @@ const Contact = () => {
               </a>
             </div>
           </div>
-
-          <div className="bg-white rounded-[2rem] p-8 md:p-12 text-slate-900 shadow-2xl">
-            <h3 className="text-2xl font-bold mb-6">Gửi yêu cầu tư vấn</h3>
-            <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
-              <div className="grid md:grid-cols-2 gap-5">
-                <div className="space-y-2">
-                  <label className="text-sm font-semibold text-slate-600">Họ và tên</label>
-                  <input 
-                    type="text" 
-                    placeholder="Nguyễn Văn A" 
-                    className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm font-semibold text-slate-600">Số điện thoại</label>
-                  <input 
-                    type="tel" 
-                    placeholder="0913 xxx xxx" 
-                    className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all"
-                  />
-                </div>
-              </div>
-              <div className="space-y-2">
-                <label className="text-sm font-semibold text-slate-600">Địa chỉ giao hàng</label>
-                <input 
-                  type="text" 
-                  placeholder="Số nhà, tên đường, phường/xã..." 
-                  className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all"
-                />
-              </div>
-              <div className="space-y-2">
-                <label className="text-sm font-semibold text-slate-600">Lời nhắn (Tùy chọn)</label>
-                <textarea 
-                  rows={4} 
-                  placeholder="Bạn cần đặt loại nước nào, số lượng bao nhiêu?" 
-                  className="w-full px-5 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all resize-none"
-                ></textarea>
-              </div>
-              <button className="w-full bg-blue-600 text-white py-5 rounded-xl font-bold text-lg hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/20">
-                Gửi yêu cầu ngay
-              </button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
