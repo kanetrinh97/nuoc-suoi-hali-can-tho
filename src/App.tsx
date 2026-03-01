@@ -20,6 +20,7 @@ import {
   Mail
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import logo from './logo.png';
 
 const BUSINESS_INFO = {
   name: "Nước suối HALI Cần Thơ",
