@@ -274,10 +274,16 @@ const Features = () => {
 const Products = () => {
   const productCategories = [
     {
-      title: "Dòng Chai Nhỏ & Vừa",
-      items: ["Chai 250ml", "Chai 330ml", "Chai 0.5L", "Chai 1.5L"],
-      icon: <Droplets className="text-blue-500" />
-    },
+  title: "Dòng Chai Nhỏ & Vừa",
+  items: ["Chai 250ml", "Chai 330ml", "Chai 0.5L", "Chai 1.5L"],
+  icon: (
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaya5a6wmg1ekORVzF7ECvXAxoaeBijlkEWA&s"
+      alt="Chai nước HALI"
+      className="w-full h-full object-contain"
+    />
+  )
+},
     {
   title: "Dòng Bình Lớn",
   items: ["Bình 5L", "Bình 7.5L", "Bình 19L", "Bình 20L"],
