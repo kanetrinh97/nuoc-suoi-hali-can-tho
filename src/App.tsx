@@ -406,12 +406,6 @@ const Contact = () => {
               >
                 <Facebook className="text-white group-hover:scale-110 transition-transform" />
               </a>
-              <a href="#" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all group">
-                <Instagram className="text-white group-hover:scale-110 transition-transform" />
-              </a>
-              <a href="#" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all group">
-                <Mail className="text-white group-hover:scale-110 transition-transform" />
-              </a>
             </div>
           </div>
         </div>
