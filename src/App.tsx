@@ -279,10 +279,16 @@ const Products = () => {
       icon: <Droplets className="text-blue-500" />
     },
     {
-      title: "Dòng Bình Lớn",
-      items: ["Bình 5L", "Bình 7.5L", "Bình 19L", "Bình 20L"],
-      icon: <Truck className="text-blue-500" />
-    }
+  title: "Dòng Bình Lớn",
+  items: ["Bình 5L", "Bình 7.5L", "Bình 19L", "Bình 20L"],
+  icon: (
+    <img
+      src="https://ecom.viettechsmart.com:5020/Media/Images/0/FRAME_NUOC_NEW-10.jpg"
+      alt="Bình nước HALI"
+      className="w-8 h-8 object-contain"
+    />
+  )
+}
   ];
 
   return (
